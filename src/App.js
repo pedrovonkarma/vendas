@@ -1,3 +1,4 @@
+import BonusContainer from "./components/BonusContainer";
 import ContainerA from "./components/ContainerA"
 import ContainerB from "./components/ContainerB";
 import ContainerC from "./components/ContainerC";
@@ -15,6 +16,7 @@ function App() {
     <ContainerD/>
     <ContainerE/>
     <PrintsContainer/>
+    <BonusContainer/>
     </>
   );
 }

@@ -127,7 +127,7 @@ input:focus{
 .prints{
 	background:#d7baf2;
 	h1{
-		font-family: 'Roboto';
+		font-family: 'MADE Evolve Sans';
 		font-weight: 700;
 		font-size: 40px;
 		line-height: 40px;
@@ -135,6 +135,49 @@ input:focus{
 		color:black;
 		padding-top:40px;
 	}
+}
+.bonusbox{
+	display:flex;
+	justify-content:center;
+	padding-block:30px;
+	flex-wrap:wrap;
+	background: linear-gradient(to bottom, black, #740094);
+	h1{
+		font-family: 'MADE Evolve Sans';
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 40px;
+		text-align:center;
+		color:white;
+		padding-top:40px;
+		display:block;
+	}
+}
+.bonuscard{
+	height:400px;
+	display:flex;
+	width:40%;
+	border-radius:20px;
+	align-items:center;
+	background-color: #740094;
+	box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
+	margin:auto;
+	margin-block:20px;
+	img{
+		height:100%;
+	}
+	p{
+
+		font-family: 'MADE Evolve Sans';
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 30px;
+		color:white;
+		padding:15px;
+
+	}
+
+
 }
 .sectiona{
 	display:flex;
