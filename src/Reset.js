@@ -150,6 +150,88 @@ input:focus{
 		display:block;
 	}
 }
+.oferta{
+display:flex;
+flex-direction:column;
+align-items:center;
+padding-block:20px;
+background: linear-gradient(to bottom, #740094, black);
+h1{
+	font-family:'Montserrat';
+		font-weight: 700;
+		font-size: 35px;
+		text-align: center;
+		line-height:40px;
+		color:white;
+		padding-block:20px;
+		margin-bottom:30px;
+}
+}
+.offertbox{
+display:flex;
+justify-content:center;
+
+}
+.offertcard{
+	width:40%;
+	background: linear-gradient(to bottom, #00a1d7, #004c7f);
+box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
+padding:30px;
+border-radius:40px;
+margin-inline:30px;
+h2{
+	font-family:'Montserrat';
+		font-weight: 700;
+		font-size: 30px;
+		text-align: center;
+		line-height:32px;
+		color:white;
+		margin-bottom:20px;
+}
+p{
+	font-family:'Montserrat';
+		font-weight: 500;
+		font-size: 22px;
+		line-height:30px;
+		color:white;
+}
+}
+.offertbutton{
+	width:50%;
+	background: linear-gradient(to bottom, #ffbd59, #FFA93F);
+box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
+padding:30px;
+border-radius:40px;
+margin-inline:auto;
+margin-block:60px;
+display:flex;
+flex-direction:column;
+align-items:center;
+h3{
+	font-family:'Montserrat';
+		font-weight: 600;
+		font-size: 30px;
+		text-align: center;
+		line-height:32px;
+		color:black;
+		margin-bottom:20px;
+}
+button{
+	width:60%;
+		border-radius:50px;
+		font-family:'Montserrat';
+		font-weight: 700;
+		font-size: 25px;
+		text-align: center;
+		line-height:30px;
+		color:white;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		margin-block:15px;
+		padding-block:15px;
+		background-color: #fd3dab;
+		cursor:pointer;
+}
+}
 .bonuscard{
 	height:350px;
 	display:flex;

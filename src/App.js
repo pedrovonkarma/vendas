@@ -4,6 +4,7 @@ import ContainerB from "./components/ContainerB";
 import ContainerC from "./components/ContainerC";
 import ContainerD from "./components/ContainerD";
 import ContainerE from "./components/ContainerE";
+import OfertaContainer from "./components/OfertaContainer";
 import PrintsContainer from "./components/PrintsContainer";
 import GlobalStyle from "./Reset";
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <ContainerE/>
     <PrintsContainer/>
     <BonusContainer/>
+    <OfertaContainer/>
     </>
   );
 }
