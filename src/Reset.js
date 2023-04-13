@@ -62,11 +62,48 @@ input:focus{
 .headCont{
 	width:100%;
 	display:flex;
+	flex-direction:column;
 	background: linear-gradient(to bottom, #740094, #d7baf2);
 	justify-content:space-between;
 	align-items:center;
-	padding:5%;
+	padding-block:30px;
+	padding-inline:5%;
+	img{
+		width:30%;
+		margin-right:auto;
+		
+		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 20px));
+	}
+	p{
+		font-family:'Roboto';
+		font-weight: 700;
+		font-size: 40px;
+		text-align: center;
+		line-height:48px;
+		color:#ffbd59;
+		padding-block:20px;
+		width:80%;
+	}
+	button{
+		width:40%;
+		border-radius:50px;
+		font-family:'MADE Evolve Sans';
+		font-weight: 700;
+		font-size: 35px;
+		text-align: center;
+		line-height:43px;
+		color:white;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		margin-block:25px;
+		padding-block:15px;
+		background-color: #fd3dab;
+		cursor:pointer;
+	}
 
+}
+.video-responsive{
+	margin-block:20px;
 }
 .fourthCont{
 	width:100%;
@@ -87,6 +124,60 @@ input:focus{
 	margin-right:8px;
 	margin-bottom:-5px;
 }
+.prints{
+	background:#d7baf2;
+	h1{
+		font-family: 'Roboto';
+		font-weight: 700;
+		font-size: 40px;
+		line-height: 40px;
+		text-align:center;
+		color:black;
+		padding-top:40px;
+	}
+}
+.sectiona{
+	display:flex;
+	justify-content:center;
+	width:100%;
+	padding-block:30px;	
+	img{
+		width:40%;
+	}
+}
+.sectionb{
+	display:flex;
+	justify-content:center;
+	width:100%;
+
+	padding-block:30px;
+	img{
+		width:40%;
+		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 20px));
+	}
+}
+.sectionc{
+	display:flex;
+	justify-content:center;
+	width:100%;
+
+	padding-block:30px;
+	img{
+		width:45%;
+	}
+}
+.sectiond{
+	display:flex;
+	justify-content:center;
+	width:100%;
+
+	padding-block:30px;
+	img{
+		width:80%;
+		box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
+	}
+}
 .thirdCont{
 	width:100%;
 	display:flex;
@@ -95,13 +186,14 @@ input:focus{
 	align-items:center;
 	padding-inline:10%;
 	flex-wrap:wrap;
-	h1{font-family:'Arapey';
+	h1{font-family:'Roboto';
 		font-weight: 700;
 		font-size: 40px;
 		text-align: center;
 		line-height:48px;
 		color:#740094;
-		padding-block:40px;}
+		padding-block:40px;
+	}
 	p{
 		font-family:'Arapey';
 		font-weight: 700;
@@ -182,7 +274,9 @@ input:focus{
 		line-height:45px;
 		color:black;
 		padding-block:20px;
+		margin-bottom:20px;
 	}
+	padding-bottom:40px;
 }
 .checktwo{
 	margin-inline:auto;
