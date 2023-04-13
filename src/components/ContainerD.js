@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useEffect } from "react"
-import foto2 from "../assets/foto2.png"
+import foto1 from "../assets/foto1.png"
 import { useRef } from "react"
 export default function ContainerD(){
     const resposta1 = "FP é para qualquer pessoa que queira ter uma renda extra e que queira empreender no mercado de Papelaria Personalizada. Isso mesmo! Serve para quem está no início absoluto até para quem já tem conhecimentos avançados. Além disso tudo, serve também para quem quer apenas se aventurar no mundo dos personalizados, fazendo peças encantadoras para amigos, parentes e até mesmo para sua própria festa!"
@@ -37,7 +37,7 @@ useEffect(() => {
 
     
     return(<div className="fourthCont">
-        <img alt="gabi" src={foto2}/>
+        <img alt="gabi" src={foto1}/>
         <div className="textboxb">
         <div className="questionBox" ref={questionBoxRef}>
             <div onClick={() => {setR1(<p>{resposta1}</p>)}} className="question">

@@ -77,12 +77,16 @@ input:focus{
 	padding:8%;
 	img{
 		width:35%;
-		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 20px));
+
+	border-radius:50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	}
 
 }
-
+.icon{
+	margin-right:8px;
+	margin-bottom:-5px;
+}
 .thirdCont{
 	width:100%;
 	display:flex;
@@ -124,6 +128,25 @@ input:focus{
 		cursor:default;
 	}
 }
+.checkbox{
+	margin-inline:auto;
+		width:70%;
+		border-radius:80px;
+		h1{font-family:'MADE Evolve Sans';
+		font-weight: 700;
+		font-size: 30px;
+		text-align: center;
+		line-height:35px;
+		color:black;
+		padding-block:20px;
+		text-align:left;
+	}
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		padding:15px;
+		background-color: white;
+		cursor:default;
+		border: 3px solid #fd3dab;
+}
 .modCont{
 	width:100%;
 	display:flex;
@@ -142,11 +165,43 @@ input:focus{
 		padding-block:20px;
 	}
 	img{
-		width:30%;
+		width:18%;
 		border-radius:20px;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 		margin-block:20px;
 	}
+}
+.fifCont{
+	width:100%;
+	background: linear-gradient(to bottom, #ffbd59, #fd3dab);
+	h1{
+		font-family:'Roboto';
+		font-weight: 700;
+		font-size: 40px;
+		text-align: center;
+		line-height:45px;
+		color:black;
+		padding-block:20px;
+	}
+}
+.checktwo{
+	margin-inline:auto;
+		width:70%;
+		border-radius:80px;
+		p{font-family:'Roboto';
+		font-weight: 500;
+		font-size: 30px;
+		text-align: center;
+		line-height:35px;
+		color:white;
+		padding-block:20px;
+		text-align:left;
+	}
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		padding:35px;
+		background-color: #740094;
+		cursor:default;
+		border: 3px solid #fd3dab;
 }
 .textboxb{
 	width:60%;
@@ -162,6 +217,8 @@ input:focus{
 	height:60px;
 	overflow:hidden;
 	margin-block:10px;
+
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	p{
 		font-family:'Arapey';
 		font-weight: 700;
