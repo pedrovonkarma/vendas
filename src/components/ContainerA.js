@@ -6,11 +6,11 @@ export default function ContainerA(){
     return(<div className="headCont">
         
             <img src={logo} alt="logo"/>
-            <p>Ensino mulheres a ganhar de $2.000,00 a $5.000,00 mil reais por mês trabalhando de casa com papelaria personalizada.</p>
+            <p>Ensino mulheres a ganhar de R$2.000,00 a R$5.000,00 mil reais por mês trabalhando de casa com papelaria personalizada.</p>
             <div className="video-responsive">
     <iframe
-      width="853"
-      height="480"
+      width="640"
+      height="360"
       src={`https://www.youtube.com/embed/zJtGYcXbZs8`}
       title="YouTube video player"
       frameborder="0"
@@ -18,7 +18,7 @@ export default function ContainerA(){
       allowfullscreen
     />
   </div>
-            <button>ENTRAR AGORA PARA A FORMAÇÃO PAPELEIRA</button>
+            <button onClick={() => window.open("https://pay.kiwify.com.br/Y7zEF01")}>ENTRAR AGORA PARA A FORMAÇÃO PAPELEIRA</button>
         
     </div>)
 }

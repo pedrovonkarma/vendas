@@ -51,7 +51,7 @@ table {
 /*MY MODIFICATIONS*/
 *{
     box-sizing: border-box;
-	font-family: 'MADE Evolve Sans','Arapey', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 button{
     border: none;
@@ -66,33 +66,30 @@ input:focus{
 	background: linear-gradient(to bottom, #740094, #d7baf2);
 	justify-content:space-between;
 	align-items:center;
-	padding-block:30px;
+	padding-block:15px;
 	padding-inline:5%;
 	img{
-		width:30%;
-		margin-right:auto;
-		
+		width:20%;
 		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 20px));
 	}
 	p{
-		font-family:'Roboto';
+		font-family:'Montserrat';
 		font-weight: 700;
-		font-size: 40px;
+		font-size: 30px;
 		text-align: center;
-		line-height:48px;
-		color:#ffbd59;
-		padding-block:20px;
+		line-height:35px;
+		color:#fd3dab;
+		padding-block:10px;
 		width:80%;
 	}
 	button{
-		width:40%;
+		width:30%;
 		border-radius:50px;
-		font-family:'MADE Evolve Sans';
+		font-family:'Montserrat';
 		font-weight: 700;
-		font-size: 35px;
+		font-size: 25px;
 		text-align: center;
-		line-height:43px;
+		line-height:30px;
 		color:white;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 		margin-block:25px;
@@ -127,7 +124,7 @@ input:focus{
 .prints{
 	background:#d7baf2;
 	h1{
-		font-family: 'MADE Evolve Sans';
+		font-family: 'Montserrat';
 		font-weight: 700;
 		font-size: 40px;
 		line-height: 40px;
@@ -141,9 +138,9 @@ input:focus{
 	justify-content:center;
 	padding-block:30px;
 	flex-wrap:wrap;
-	background: linear-gradient(to bottom, black, #740094);
+	padding-inline:5%;
 	h1{
-		font-family: 'MADE Evolve Sans';
+		font-family: 'Montserrat';
 		font-weight: 700;
 		font-size: 40px;
 		line-height: 40px;
@@ -154,9 +151,9 @@ input:focus{
 	}
 }
 .bonuscard{
-	height:400px;
+	height:350px;
 	display:flex;
-	width:40%;
+	width:30%;
 	border-radius:20px;
 	align-items:center;
 	background-color: #740094;
@@ -168,10 +165,10 @@ input:focus{
 	}
 	p{
 
-		font-family: 'MADE Evolve Sans';
-		font-weight: 500;
-		font-size: 25px;
-		line-height: 30px;
+		font-family: 'Montserrat';
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 20px;
 		color:white;
 		padding:15px;
 
@@ -229,28 +226,31 @@ input:focus{
 	align-items:center;
 	padding-inline:10%;
 	flex-wrap:wrap;
-	h1{font-family:'Roboto';
-		font-weight: 700;
-		font-size: 40px;
-		text-align: center;
-		line-height:48px;
-		color:#740094;
-		padding-block:40px;
-	}
-	p{
-		font-family:'Arapey';
-		font-weight: 700;
-		font-size: 30px;
+	h1{font-family:'Montserrat';
+		font-weight: 800;
+		font-size: 35px;
 		text-align: center;
 		line-height:40px;
+		color:#740094;
+		padding-bottom:30px;
+		padding-top: 120px;
+	}
+	p{
+		font-family:'Montserrat';
+		font-weight: 600;
+		font-size: 25px;
+		text-align: center;
+		line-height:28px;
 		color:black;
 		padding-block:40px;
+		width:70%;
+		margin:auto;
 	}
 	button{
 		margin-inline:auto;
 		width:40%;
 		border-radius:50px;
-		font-family:'MADE Evolve Sans';
+		font-family:'Montserrat';
 		font-weight: 700;
 		font-size: 35px;
 		text-align: center;
@@ -265,13 +265,13 @@ input:focus{
 }
 .checkbox{
 	margin-inline:auto;
-		width:70%;
+		width:50%;
 		border-radius:80px;
-		h1{font-family:'MADE Evolve Sans';
-		font-weight: 700;
-		font-size: 30px;
+		h1{font-family:'Montserrat';
+		font-weight: 400;
+		font-size: 20px;
 		text-align: center;
-		line-height:35px;
+		line-height:24px;
 		color:black;
 		padding-block:20px;
 		text-align:left;
@@ -291,11 +291,11 @@ input:focus{
 	padding-inline:10%;
 	flex-wrap:wrap;
 	p{
-		font-family:'Arapey';
+		font-family:'Montserrat';
 		font-weight: 700;
-		font-size: 40px;
+		font-size: 35px;
 		text-align: center;
-		line-height:48px;
+		line-height:40px;
 		color:black;
 		padding-block:20px;
 	}
@@ -310,26 +310,40 @@ input:focus{
 	width:100%;
 	background: linear-gradient(to bottom, #ffbd59, #fd3dab);
 	h1{
-		font-family:'Roboto';
-		font-weight: 700;
-		font-size: 40px;
+		font-family:'Montserrat';
+		font-weight: 800;
+		font-size: 45px;
 		text-align: center;
-		line-height:45px;
+		line-height:50px;
 		color:black;
 		padding-block:20px;
 		margin-bottom:20px;
 	}
 	padding-bottom:40px;
 }
+.bonusCont{
+
+	background: linear-gradient(to bottom, black, #740094);
+	h1{
+		font-family:'Montserrat';
+		font-weight: 800;
+		font-size: 35px;
+		text-align: center;
+		line-height:40px;
+		color:white;
+		padding-bottom:20px;
+		padding-top:50px;
+	}
+}
 .checktwo{
 	margin-inline:auto;
-		width:70%;
+		width:40%;
 		border-radius:80px;
-		p{font-family:'Roboto';
-		font-weight: 500;
-		font-size: 30px;
+		p{font-family:'Montserrat';
+		font-weight: 400;
+		font-size: 20px;
 		text-align: center;
-		line-height:35px;
+		line-height:22px;
 		color:white;
 		padding-block:20px;
 		text-align:left;
@@ -351,14 +365,13 @@ input:focus{
 	border-radius:15px;
 	transition: height 0.5s ease;
 	padding:15px;
-	height:60px;
 	overflow:hidden;
 	margin-block:10px;
 
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	p{
-		font-family:'Arapey';
-		font-weight: 700;
+		font-family:'Montserrat';
+		font-weight: 500;
 		font-size: 22px;
 		line-height:28px;
 		color:white;
@@ -371,7 +384,7 @@ input:focus{
 	width:100%;
 	cursor:pointer;
 	h1{
-		font-family:'MADE Evolve Sans';
+		font-family:'Montserrat';
 		font-weight: 700;
 		font-size: 25px;
 		text-align: left;
@@ -379,7 +392,7 @@ input:focus{
 		color:white;
 	}
 	h2{
-		font-family:'MADE Evolve Sans';
+		font-family:'Montserrat';
 		font-weight: 700;
 		font-size: 35px;
 		text-align: right;
@@ -399,7 +412,7 @@ input:focus{
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 20px));
 	}
 	p{
-		font-family:'MADE Evolve Sans';
+		font-family:'Montserrat';
 		font-weight: 700;
 		font-size: 40px;
 		text-align: center;
@@ -410,7 +423,7 @@ input:focus{
 	button{
 		width:90%;
 		border-radius:50px;
-		font-family:'MADE Evolve Sans';
+		font-family:'Montserrat';
 		font-weight: 700;
 		font-size: 35px;
 		text-align: center;
