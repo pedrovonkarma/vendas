@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+
+
 const GlobalStyle = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -66,6 +68,20 @@ input:focus{
 	padding:5%;
 
 }
+.fourthCont{
+	width:100%;
+	display:flex;
+	background: linear-gradient(to bottom, #00dfc8, #ffbd59);
+	justify-content:space-between;
+	align-items:center;
+	padding:8%;
+	img{
+		width:35%;
+		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 20px));
+	}
+
+}
 
 .thirdCont{
 	width:100%;
@@ -130,6 +146,51 @@ input:focus{
 		border-radius:20px;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 		margin-block:20px;
+	}
+}
+.textboxb{
+	width:60%;
+	display:flex;
+	flex-direction:column;
+	
+}
+.questionBox{
+	background-color:#740094;
+	border-radius:15px;
+	transition: height 0.5s ease;
+	padding:15px;
+	height:60px;
+	overflow:hidden;
+	margin-block:10px;
+	p{
+		font-family:'Arapey';
+		font-weight: 700;
+		font-size: 22px;
+		line-height:28px;
+		color:white;
+		margin-block:10px;
+	}
+}
+.question{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	cursor:pointer;
+	h1{
+		font-family:'MADE Evolve Sans';
+		font-weight: 700;
+		font-size: 25px;
+		text-align: left;
+		line-height:30px;
+		color:white;
+	}
+	h2{
+		font-family:'MADE Evolve Sans';
+		font-weight: 700;
+		font-size: 35px;
+		text-align: right;
+		line-height:30px;
+		color:white;
 	}
 }
 .textboxa{
