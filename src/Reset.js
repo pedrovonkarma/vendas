@@ -71,6 +71,7 @@ input:focus{
 	img{
 		width:20%;
 		filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+		@media (max-width: 800px) {width:60%;}
 	}
 	p{
 		font-family:'Montserrat';
@@ -81,6 +82,7 @@ input:focus{
 		color:#fd3dab;
 		padding-block:10px;
 		width:80%;
+		@media (max-width: 800px) {font-size:20px; line-height:22px;}
 	}
 	button{
 		width:30%;
@@ -96,11 +98,17 @@ input:focus{
 		padding-block:15px;
 		background-color: #fd3dab;
 		cursor:pointer;
+		@media (max-width: 800px) {
+			width:90%; font-size:20px; line-height:22px;
+		}
 	}
 
 }
 .video-responsive{
 	margin-block:20px;
+	width:100%;
+	display:flex;
+	justify-content:center;
 }
 .fourthCont{
 	width:100%;
@@ -123,6 +131,7 @@ input:focus{
 }
 .prints{
 	background:#d7baf2;
+	padding-inline:5%;
 	h1{
 		font-family: 'Montserrat';
 		font-weight: 700;
@@ -131,6 +140,7 @@ input:focus{
 		text-align:center;
 		color:black;
 		padding-top:40px;
+		@media (max-width: 800px) {font-size:25px; line-height:27px;}
 	}
 }
 .bonusbox{
@@ -139,6 +149,7 @@ input:focus{
 	padding-block:30px;
 	flex-wrap:wrap;
 	padding-inline:5%;
+	@media (max-width: 800px) {display:block; padding-block:0;}
 	h1{
 		font-family: 'Montserrat';
 		font-weight: 700;
@@ -156,6 +167,8 @@ flex-direction:column;
 align-items:center;
 padding-block:20px;
 background: linear-gradient(to bottom, #740094, black);
+
+@media (max-width: 800px) {padding-inline:5%;}
 h1{
 	font-family:'Montserrat';
 		font-weight: 700;
@@ -165,11 +178,15 @@ h1{
 		color:white;
 		padding-block:20px;
 		margin-bottom:30px;
+
+@media (max-width: 800px) {font-size:22px; line-height:25px;}
 }
 }
 .offertbox{
 display:flex;
 justify-content:center;
+
+@media (max-width: 800px) {display:block;}
 
 }
 .offertcard{
@@ -179,6 +196,8 @@ box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
 padding:30px;
 border-radius:40px;
 margin-inline:30px;
+
+@media (max-width: 800px) {width:100%; margin-inline:0; margin-bottom:30px;}
 h2{
 	font-family:'Montserrat';
 		font-weight: 700;
@@ -187,6 +206,8 @@ h2{
 		line-height:32px;
 		color:white;
 		margin-bottom:20px;
+
+@media (max-width: 800px) {font-size:22px; line-height:25px;}
 }
 p{
 	font-family:'Montserrat';
@@ -194,6 +215,8 @@ p{
 		font-size: 22px;
 		line-height:30px;
 		color:white;
+
+@media (max-width: 800px) {font-size:18px; line-height:20px;}
 }
 }
 .offertbutton{
@@ -207,6 +230,8 @@ margin-block:60px;
 display:flex;
 flex-direction:column;
 align-items:center;
+
+@media (max-width: 800px) {width:100%; margin-block:30px;}
 h3{
 	font-family:'Montserrat';
 		font-weight: 600;
@@ -215,6 +240,8 @@ h3{
 		line-height:32px;
 		color:black;
 		margin-bottom:20px;
+
+@media (max-width: 800px) {font-size:20px; line-height:22px;}
 }
 button{
 	width:60%;
@@ -230,6 +257,8 @@ button{
 		padding-block:15px;
 		background-color: #fd3dab;
 		cursor:pointer;
+
+@media (max-width: 800px) {width:90%;font-size:22px; line-height:23px;}
 }
 }
 .bonuscard{
@@ -242,6 +271,8 @@ button{
 	box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
 	margin:auto;
 	margin-block:20px;
+
+@media (max-width: 800px) {width:100%; margin-bottom:40px;}
 	img{
 		height:100%;
 	}
@@ -254,6 +285,8 @@ button{
 		color:white;
 		padding:15px;
 
+@media (max-width: 800px) {font-size:13px; line-height:15px;}
+
 	}
 
 
@@ -265,7 +298,9 @@ button{
 	padding-block:30px;	
 	img{
 		width:40%;
+		@media (max-width: 800px) {width:100%; }
 	}
+	@media (max-width: 800px) {display:block;}
 }
 .sectionb{
 	display:flex;
@@ -316,6 +351,7 @@ button{
 		color:#740094;
 		padding-bottom:30px;
 		padding-top: 120px;
+		@media (max-width: 800px) {font-size:22px; line-height:25px; padding-top:100px;}
 	}
 	p{
 		font-family:'Montserrat';
@@ -327,6 +363,7 @@ button{
 		padding-block:40px;
 		width:70%;
 		margin:auto;
+		@media (max-width: 800px) {font-size:20px; line-height:22px; width:90%; padding-block:25px;}
 	}
 	button{
 		margin-inline:auto;
@@ -345,6 +382,9 @@ button{
 		cursor:default;
 	}
 }
+.mobhide{
+	@media (max-width: 800px) {display:none;}
+}
 .checkbox{
 	margin-inline:auto;
 		width:50%;
@@ -357,12 +397,14 @@ button{
 		color:black;
 		padding-block:20px;
 		text-align:left;
+		@media (max-width: 800px) {font-size:18px; line-height:20px;} 
 	}
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 		padding:15px;
 		background-color: white;
 		cursor:default;
 		border: 3px solid #fd3dab;
+		@media (max-width: 800px) {width:95%;padding:20px;}
 }
 .modCont{
 	width:100%;
@@ -380,12 +422,16 @@ button{
 		line-height:40px;
 		color:black;
 		padding-block:20px;
+		@media (max-width: 800px) {
+			font-size:22px; line-height:25px;
+		}
 	}
 	img{
 		width:18%;
 		border-radius:20px;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 		margin-block:20px;
+		@media (max-width: 800px) {width:45%;}
 	}
 }
 .fifCont{
@@ -400,11 +446,12 @@ button{
 		color:black;
 		padding-block:20px;
 		margin-bottom:20px;
+		@media (max-width: 800px) {font-size:25px; line-height:28px;}
 	}
 	padding-bottom:40px;
 }
 .bonusCont{
-
+padding-block:10px;
 	background: linear-gradient(to bottom, black, #740094);
 	h1{
 		font-family:'Montserrat';
@@ -415,6 +462,7 @@ button{
 		color:white;
 		padding-bottom:20px;
 		padding-top:50px;
+		@media (max-width: 800px) {font-size:25px; line-height:27px;}
 	}
 }
 .checktwo{
@@ -427,19 +475,22 @@ button{
 		text-align: center;
 		line-height:22px;
 		color:white;
-		padding-block:20px;
+		padding-block:15px;
 		text-align:left;
+		@media (max-width: 800px) {font-size:20px; line-height:22px; padding-block:10px;}
 	}
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 		padding:35px;
 		background-color: #740094;
 		cursor:default;
 		border: 3px solid #fd3dab;
+		@media (max-width: 800px) {width:90%;}
 }
 .textboxb{
 	width:60%;
 	display:flex;
 	flex-direction:column;
+	@media (max-width: 800px) {width:100%;}
 	
 }
 .questionBox{
@@ -458,6 +509,7 @@ button{
 		line-height:28px;
 		color:white;
 		margin-block:10px;
+		@media (max-width: 800px) {font-size:20px; line-height:22px;}
 	}
 }
 .question{
@@ -472,6 +524,7 @@ button{
 		text-align: left;
 		line-height:30px;
 		color:white;
+		@media (max-width: 800px) {font-size:22px; line-height:25px;}
 	}
 	h2{
 		font-family:'Montserrat';
@@ -480,6 +533,7 @@ button{
 		text-align: right;
 		line-height:30px;
 		color:white;
+		@media (max-width: 800px) {font-size:30px; line-height:32px;}
 	}
 }
 .textboxa{

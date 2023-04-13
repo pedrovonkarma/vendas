@@ -16,7 +16,7 @@ export default function ContainerD(){
 
     
     return(<div className="fourthCont">
-        <img alt="gabi" src={foto1}/>
+        <img className="mobhide" alt="gabi" src={foto1}/>
         <div className="textboxb">
         <div className="questionBox">
             <div onClick={() => {r1===''? setR1(<p>{resposta1}</p>) : setR1('')}} className="question">

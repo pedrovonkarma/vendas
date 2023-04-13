@@ -1,7 +1,7 @@
 export default function OfertaContainer(){
 
     return(<div className="oferta">
-        <h1>Preparei um desconto especial para você se matricular agora… <br/>Oportunidade única, R$ 270,00 reais de desconto (mais de 35% de desconto por tempo limitado)
+        <h1>Preparei um desconto especial para você se matricular agora… <br/><br/>Oportunidade única, R$ 270,00 reais de desconto (mais de 35% de desconto por tempo limitado)
 </h1>
         <div className="offertbox">
             <div className="offertcard"><h2>FORMAÇÃO PAPELEIRA</h2><p>
