@@ -14,12 +14,13 @@ export default function OfertaContainer(){
 - Manual da papelaria de sucesso<br/>
 - Mundo do papel<br/>
 - Silhouettando<br/>
-- Imprimindo e usando a Sil<br/>
+
 
                 
                 
                 </p></div>
             <div className="offertcard"><h2>FORMAÇÃO PAPELEIRA</h2><p>
+            - Imprimindo e usando a Sil<br/>
             - Tags e adesivos <br/>
             - Topos únicos e lacradores<br/>
             - Personalizados<br/>
@@ -31,13 +32,14 @@ export default function OfertaContainer(){
             - Tira dúvida<br/>
             - Bônus<br/>
                 </p></div>
-        </div>
-        <div className="offertbutton">
+                <div className="offertbutton">
             <h3>R$ 12x de 49,90 ou RS 497,00 à vista. <br/>
 (esse valor com desconto é por tempo limitado)<br/><br/>
 
 PAGAMENTO 100% SEGURO | ACESSO IMEDIATO
 </h3><button onClick={() => window.open("https://pay.kiwify.com.br/Y7zEF01")}>ENTRAR AGORA</button>
         </div>
+        </div>
+        
     </div>)
 }

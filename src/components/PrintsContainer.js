@@ -6,5 +6,6 @@ export default function PrintsContainer(){
     return(<div className="prints">
         <h1>Confira o que as alunas dizem sobre os métodos:</h1>
         <div className="sectiona"><img src={cell1} alt="print"/><img src={cell2} alt="print"/></div>
+        <button onClick={() => window.open("https://pay.kiwify.com.br/Y7zEF01")}>QUERO TER ESSES RESULTADOS</button>
     </div>)
 }

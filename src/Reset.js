@@ -85,17 +85,17 @@ input:focus{
 		@media (max-width: 800px) {font-size:20px; line-height:22px;}
 	}
 	button{
-		width:30%;
+		width:28%;
 		border-radius:50px;
 		font-family:'Montserrat';
 		font-weight: 700;
-		font-size: 25px;
+		font-size: 20px;
 		text-align: center;
-		line-height:30px;
+		line-height:22px;
 		color:white;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-		margin-block:25px;
-		padding-block:15px;
+		margin-block:15px;
+		padding-block:10px;
 		background-color: #fd3dab;
 		cursor:pointer;
 		@media (max-width: 800px) {
@@ -105,7 +105,6 @@ input:focus{
 
 }
 .video-responsive{
-	margin-block:20px;
 	width:100%;
 	display:flex;
 	justify-content:center;
@@ -113,7 +112,7 @@ input:focus{
 .fourthCont{
 	width:100%;
 	display:flex;
-	background: linear-gradient(to bottom, #00dfc8, #ffbd59);
+	background: linear-gradient(to bottom, #00dfc8, #d7baf2);
 	justify-content:space-between;
 	align-items:center;
 	padding:8%;
@@ -132,6 +131,27 @@ input:focus{
 .prints{
 	background:#d7baf2;
 	padding-inline:5%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	button{
+		width:30%;
+		border-radius:50px;
+		font-family:'Montserrat';
+		font-weight: 700;
+		font-size: 20px;
+		text-align: center;
+		line-height:22px;
+		color:white;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		margin-bottom:35px;
+		padding-block:10px;
+		background-color: #fd3dab;
+		cursor:pointer;
+		@media (max-width: 800px) {
+			width:90%; font-size:20px; line-height:22px;
+		}
+	}
 	h1{
 		font-family: 'Montserrat';
 		font-weight: 700;
@@ -146,7 +166,7 @@ input:focus{
 .bonusbox{
 	display:flex;
 	justify-content:center;
-	padding-block:30px;
+	padding-block:0px;
 	flex-wrap:wrap;
 	padding-inline:5%;
 	@media (max-width: 800px) {display:block; padding-block:0;}
@@ -185,66 +205,66 @@ h1{
 .offertbox{
 display:flex;
 justify-content:center;
+align-items:center;
 
 @media (max-width: 800px) {display:block;}
 
 }
 .offertcard{
-	width:40%;
+	width:25%;
 	background: linear-gradient(to bottom, #00a1d7, #004c7f);
 box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
-padding:30px;
+padding:20px;
 border-radius:40px;
-margin-inline:30px;
-
+margin-inline:10px;
 @media (max-width: 800px) {width:100%; margin-inline:0; margin-bottom:30px;}
 h2{
 	font-family:'Montserrat';
 		font-weight: 700;
-		font-size: 30px;
+		font-size: 20px;
 		text-align: center;
-		line-height:32px;
+		line-height:45px;
 		color:white;
-		margin-bottom:20px;
 
 @media (max-width: 800px) {font-size:22px; line-height:25px;}
 }
 p{
 	font-family:'Montserrat';
 		font-weight: 500;
-		font-size: 22px;
-		line-height:30px;
+		font-size: 15px;
+		line-height:25px;
 		color:white;
 
 @media (max-width: 800px) {font-size:18px; line-height:20px;}
 }
 }
 .offertbutton{
-	width:50%;
+	width:30%;
 	background: linear-gradient(to bottom, #ffbd59, #FFA93F);
 box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
-padding:30px;
 border-radius:40px;
-margin-inline:auto;
+margin-inline:10px;
 margin-block:60px;
 display:flex;
 flex-direction:column;
+justify-content:center;
 align-items:center;
+padding:30px;
 
-@media (max-width: 800px) {width:100%; margin-block:30px;}
+@media (max-width: 800px) {width:100%; margin-block:30px; margin-inline:0;}
 h3{
 	font-family:'Montserrat';
 		font-weight: 600;
-		font-size: 30px;
+		font-size: 22px;
 		text-align: center;
-		line-height:32px;
+		line-height:25px;
 		color:black;
 		margin-bottom:20px;
 
 @media (max-width: 800px) {font-size:20px; line-height:22px;}
 }
 button{
-	width:60%;
+	width:80%;
 		border-radius:50px;
 		font-family:'Montserrat';
 		font-weight: 700;
@@ -262,13 +282,14 @@ button{
 }
 }
 .bonuscard{
-	height:350px;
+	height:250px;
 	display:flex;
 	width:30%;
 	border-radius:20px;
 	align-items:center;
 	background-color: #740094;
-	box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
 	margin:auto;
 	margin-block:20px;
 
@@ -280,8 +301,8 @@ button{
 
 		font-family: 'Montserrat';
 		font-weight: 400;
-		font-size: 15px;
-		line-height: 20px;
+		font-size: 13px;
+		line-height: 15px;
 		color:white;
 		padding:15px;
 
@@ -436,7 +457,7 @@ button{
 }
 .fifCont{
 	width:100%;
-	background: linear-gradient(to bottom, #ffbd59, #fd3dab);
+	background: linear-gradient(to bottom, #d7baf2, #fd3dab);
 	h1{
 		font-family:'Montserrat';
 		font-weight: 800;
