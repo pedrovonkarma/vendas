@@ -20,7 +20,7 @@ export default function ContainerD(){
         <div className="textboxb">
         <div className="questionBox">
             <div onClick={() => {r1===''? setR1(<p>{resposta1}</p>) : setR1('')}} className="question">
-                <h1>Pra quem é o formação papeleira?</h1>
+                <h1>Pra quem é o FORMAÇÃO PAPELEIRA?</h1>
                 <h2>+</h2>
             </div>
             {r1}
@@ -28,7 +28,7 @@ export default function ContainerD(){
 
         <div className="questionBox">
             <div onClick={() => {r2===''? setR2(<p>{resposta2}</p>) : setR2('')}} className="question">
-                <h1>Por que vocês decidiram criar o formação papeleira?</h1>
+                <h1>Por que vocês decidiram criar o FORMAÇÃO PAPELEIRA?</h1>
                 <h2>+</h2>
             </div>
             {r2}
@@ -36,7 +36,7 @@ export default function ContainerD(){
 
         <div className="questionBox">
             <div onClick={() => {r3===''? setR3(<p>{resposta3}</p>) : setR3('')}} className="question">
-                <h1>Por que o método do formação papeleira é o melhor?</h1>
+                <h1>Por que o método do FORMAÇÃO PAPELEIRA é o melhor?</h1>
                 <h2>+</h2>
             </div>
             {r3}
@@ -44,7 +44,7 @@ export default function ContainerD(){
 
         <div className="questionBox">
             <div onClick={() => {r4===''? setR4(<p>{resposta4}</p>) : setR4('')}} className="question">
-                <h1>O que as pessoas podem alcançar com o formação papeleira?</h1>
+                <h1>O que as pessoas podem alcançar com o FORMAÇÃO PAPELEIRA?</h1>
                 <h2>+</h2>
             </div>
             {r4}
@@ -52,7 +52,7 @@ export default function ContainerD(){
 
         <div className="questionBox">
             <div onClick={() => {r5===''? setR5(<p>{resposta5}</p>) : setR5('')}} className="question">
-                <h1>O que elas devem fazer após comprar o formação papeleira?</h1>
+                <h1>O que elas devem fazer após comprar o FORMAÇÃO PAPELEIRA?</h1>
                 <h2>+</h2>
             </div>
             {r5}

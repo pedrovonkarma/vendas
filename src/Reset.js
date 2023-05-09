@@ -211,12 +211,16 @@ align-items:center;
 
 }
 .offertcard{
-	width:25%;
+	width:38%;
 	background: linear-gradient(to bottom, #00a1d7, #004c7f);
 box-shadow:(0 0 10px rgba(0, 0, 0, 0.3));
 padding:20px;
 border-radius:40px;
-margin-inline:10px;
+margin-inline:80px;
+height:360px;
+display:flex;
+flex-direction:column;
+justify-content: space-around;
 @media (max-width: 800px) {width:100%; margin-inline:0; margin-bottom:30px;}
 h2{
 	font-family:'Montserrat';
@@ -225,7 +229,7 @@ h2{
 		text-align: center;
 		line-height:45px;
 		color:white;
-
+		
 @media (max-width: 800px) {font-size:22px; line-height:25px;}
 }
 p{
@@ -236,6 +240,29 @@ p{
 		color:white;
 
 @media (max-width: 800px) {font-size:18px; line-height:20px;}
+}
+}
+.wppButton{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	text-align:center;
+	background-color: #00C74C;
+	cursor:pointer;
+	z-index:5;
+	transition: all 0.1s linear;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+	&:hover{
+		opacity: 0.9;
+		margin-bottom: 10px;
+	}
+	@media (max-width: 800px) {
+   width:75px;
+   height:75px;
+   *{font-size:35px;}
 }
 }
 .offertbutton{
@@ -280,6 +307,27 @@ button{
 
 @media (max-width: 800px) {width:90%;font-size:22px; line-height:23px;}
 }
+}
+.offertbuttonnew:hover{
+	background-color: #FF6FC1;
+}
+.offertbuttonnew{
+	transition: background-color 0.15s ease-in-out;
+	width:30%;
+		border-radius:50px;
+		font-family:'Montserrat';
+		font-weight: 700;
+		font-size: 25px;
+		text-align: center;
+		line-height:30px;
+		color:white;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		margin-block:15px;
+		padding-block:15px;
+		background-color: #fd3dab;
+		cursor:pointer;
+		margin-bottom:50px;
+@media (max-width: 800px) {width:90%;font-size:22px; line-height:23px;}
 }
 .bonuscard{
 	height:250px;

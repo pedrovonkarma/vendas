@@ -12,7 +12,7 @@ export default function BonusContainer(){
     <div className="bonusbox">
         
         <div className="bonuscard"><img src={a} alt="bonus"/><p>Cupom de 10% de desconto para comprar TODOS OS PRODUTOS DECORA PAPEL. <br/><br/>(ENQUANTO ESTIVER COM A FORMAÇÃO PAPELEIRA ATIVA)</p></div>
-        <div className="bonuscard"><img src={b} alt="bonus"/><p>Acesso ao Workshop: <br/>FORA DA CAIXA para as 20 primeiras pessoas que comprar.</p></div>
+        {/* <div className="bonuscard"><img src={b} alt="bonus"/><p>Acesso ao Workshop: <br/>FORA DA CAIXA para as 20 primeiras pessoas que comprar.</p></div> */}
         <div className="bonuscard"><img src={c} alt="bonus"/><p>2 encontros ao vivo para as 20 primeiras pessoas que comprar. <br/><br/>Encontro 1 - Como criar um catálogo que cria desejo e aumente as suas vendas.<br/><br/>Encontro 2 - Como lidar com as “desculpas” dos seus clientes e fechar mais vendas.
 </p></div></div><div className="bonusbox">
         <div className="bonuscard"><img src={d} alt="bonus"/><p>Criação de personalizados - 2 temas de festa infantil em alta. (PARA TODOS ALUNAS QUE ESTÃO ATIVAS)<br/><br/>AULA 1 - Criação de topo e caixinhas: Wandinha Adams.<br/><br/>AULA 2 - Criação de topo e caixinhas: Mario.

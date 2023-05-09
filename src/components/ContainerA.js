@@ -18,7 +18,7 @@ export default function ContainerA(){
       allowfullscreen
     />
   </div>
-            <button onClick={() => window.open("https://pay.kiwify.com.br/Y7zEF01")}>ENTRAR AGORA PARA A FORMAÇÃO PAPELEIRA</button>
+            <button onClick={() => window.open("https://pay.kiwify.com.br/06X8PHS")}>ENTRAR AGORA PARA A FORMAÇÃO PAPELEIRA</button>
         
     </div>)
 }

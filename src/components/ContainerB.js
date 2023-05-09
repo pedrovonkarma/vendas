@@ -15,7 +15,7 @@ import modulo18 from "../assets/modulos/18.png"
 export default function ContainerB(){
 
     return(<div className="modCont">
-        <p>Essa é a formação papeleira, aqui tem tudo que você precisa para ter sucesso na papelaria personalizada.</p>
+        <p>Essa é a FORMAÇÃO PAPELEIRA, aqui tem tudo que você precisa para ter sucesso na papelaria personalizada.</p>
         
         <img alt="modulo" src={modulo9}/>
         <img alt="modulo" src={modulo10}/>
